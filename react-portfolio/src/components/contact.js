@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
+import React, {Fragment} from 'react';
 export default class Contact extends Component {
   render() {
    
+/**
+       * @typedef {NewType} NewType_1
+       */
+
+/**
+       * @typedef {React.Fragment} NewType
+       */
+
     return (
         <body
         background="./assets/images/hotel-wallpaper.png"></body>
@@ -68,6 +77,7 @@ export default class Contact extends Component {
         
         
 </body> 
-    )
-} 
+    ), React, Fragment
+}
+
 }
