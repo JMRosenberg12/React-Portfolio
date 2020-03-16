@@ -68,5 +68,6 @@ export default class Contact extends Component {
         
         
 </body> 
+    )
 } 
 }
