@@ -52,9 +52,7 @@ export default class Contact extends Component {
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </input> 
                 </div>
-                
-
-</form>
+                </form>
 <body>
         <div class="wrapper">
       
@@ -69,7 +67,5 @@ export default class Contact extends Component {
         </nav>
         
         
-      </body>
-    );
-}
- }
+</body> 
+    ); }}
