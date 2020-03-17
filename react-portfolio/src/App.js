@@ -23,25 +23,25 @@ class App extends Component {
         <nav>
           <ul>
             <li>
-              <Link to=".">Github</Link>
+              <Link to="/https://github.com/JMRosenberg12">Github</Link>
             </li>
             <li>
-              <Link to=".">Linkdin</Link>
+              <Link to="https://www.linkedin.com/in/jacob-rosenberg-606a99161/">Linkdin</Link>
             </li>
             <li>
-              <Link to=".">Resume</Link>
+              <Link to="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">Resume</Link>
             </li>
           </ul>
         </nav>      
         </Router>
-        <Route path=".">
-            <About />
+        <Route path="/https://github.com/JMRosenberg12">
+            <Github />
           </Route>
-          <Route path=".">
-            <Topics />
+          <Route path="https://www.linkedin.com/in/jacob-rosenberg-606a99161/">
+            <Linkedin />
           </Route>
-          <Route path=".">
-            <Home />
+          <Route path="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">
+            <Resume />
             </Route>
       <Footer />
       </div>
