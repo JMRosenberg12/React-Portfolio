@@ -23,20 +23,30 @@ class App extends Component {
         <nav>
           <ul>
             <li>
-              <Link to=".">Home</Link>
+              <Link to=".">Github</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to=".">Linkdin</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to=".">Resume</Link>
             </li>
           </ul>
-        </nav>
+        </nav>      
         </Router>
+        <Route path=".">
+            <About />
+          </Route>
+          <Route path=".">
+            <Topics />
+          </Route>
+          <Route path=".">
+            <Home />
+            </Route>
       <Footer />
       </div>
       </div>
+      
     );
     }}
 
