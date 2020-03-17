@@ -7,8 +7,8 @@ import Contact, {Component} from 'React';
         <div className="contact-body">
           <Grid className="contact-grid">
             <Cell col={6}>
-              <h2>Leo Costa</h2>
-              <img className="profile-picture-full" src={profilePictureFull} alt="" />
+              <h2></h2>
+            
             </Cell>
             <Cell col={6}>
               
