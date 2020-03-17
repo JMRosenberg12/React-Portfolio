@@ -4,7 +4,7 @@ export default class Footer extends Component {
    
     return (
         <footer>
-          
+          Footer
             </footer>
     );
   }
