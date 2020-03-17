@@ -96,7 +96,7 @@ class About extends Component {
     </nav>
     
   </body>
-    );
+   );
   }
 }
 
