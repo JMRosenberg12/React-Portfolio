@@ -19,6 +19,7 @@ class App extends Component {
 			<Header logo={logo} />
       
       <div>
+    
       <Router>
         <nav>
           <ul>
@@ -32,22 +33,32 @@ class App extends Component {
               <Link to="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">Resume</Link>
             </li>
           </ul>
-        </nav>      
+        </nav>  
         </Router>
-        <Route path="/https://github.com/JMRosenberg12">
-            <Github />
-          </Route>
-          <Route path="https://www.linkedin.com/in/jacob-rosenberg-606a99161/">
-            <Linkedin />
-          </Route>
-          <Route path="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">
-            <Resume />
+        </div>    
+          </div>
+        
+        <Route>
+        <Github path="https://github.com/JMRosenberg12">
+            </Github>
             </Route>
-      <Footer />
-      </div>
-      </div>
+          
+          <Route>
+          <Linkedin path="https://www.linkedin.com/in/jacob-rosenberg-606a99161/">
+            </Linkedin>
+            </Route>
+         
+          <Route>
+          <Resume path="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">
+            </Resume>
+            </Route>
+        
+   
+  <Footer/>
+    
       
-    );
-    }}
+    ); 
+    }
+    }
 
 export default App;
