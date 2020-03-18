@@ -1,9 +1,10 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import Contact from 'react';
 
 export class Contact extends Component{
     render() {
       return(
+        <React.Fragment>
         <div class="container">
           <header>Contact</header>
           <form>
@@ -23,6 +24,7 @@ export class Contact extends Component{
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
              </div>
+             </React.Fragment>
         
       );
     }

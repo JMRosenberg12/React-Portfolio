@@ -4,8 +4,8 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer';
 import About from './components/aboutme';
-import Contact from './components/contact';
-import Portfolio from './componentsPortfolio'
+import Contact from 'react';
+import Portfolio from 'react'
 import {
   BrowserRouter as Router,
   Route,
