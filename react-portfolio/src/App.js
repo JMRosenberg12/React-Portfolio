@@ -27,7 +27,7 @@ class App extends Component {
               <Link to="/">About Me</Link>
             </li>
             <li>
-              <Link to="/Contact">contact</Link>
+              <Link to="/Contact">Contact</Link>
             </li>
             <li>
               <Link to="/Portfolio">Portfolio</Link>
@@ -48,12 +48,35 @@ class App extends Component {
           <Route path = '/Portfolio'> <Portfolio/>
           </Route>
         
-   
-  <Footer/>
-    
-      
     ); 
+  }}
+  
+ 
+    function About() {
+      return <h2>About Me</h2>;
     }
+    function Contact() {
+      return <h2>Contact</h2>
     }
+    function Portfolio() {
+      let match = useRouteMatch();
+      return (
+        <div>
+          <h2>Portfolio</h2>
+          <ul>
+        <li>
+          <Link to={`${match.url}/components`}>Components</Link>
+        </li>
+      </ul>
+      </div>
+    
+    <Footer/>
+    
+    );
+      }
 
-export default App;
+ 
+  
+  export default App;
+
+    
