@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 export default class Porfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
-    return (
    
+    return (
+   <React.Fragment>
       <div class="container">
           <header>
                   Portfolio
@@ -44,6 +44,7 @@ export default class Porfolio extends Component {
                 </div>
               </div>
             </div>
+            </React.Fragment>
           
         
         

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import Contact from 'react';
 
-export class Contact extends Component{
+export default class Contact extends Component{
     render() {
       return(
         <React.Fragment>
