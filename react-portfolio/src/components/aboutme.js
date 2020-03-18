@@ -38,8 +38,8 @@ class About extends Component {
       <div class="col">
         Phone number: 847-917-9635
       </div>
-  </div>
       </div>
+  </div>
       
     );
   }
