@@ -5,7 +5,9 @@ export default class Porfolio extends Component {
     return (
    
       <div class="container">
-
+          <header>
+                  Portfolio
+              </header>
               <div className="row">
                 <div className="col-sm">
                     <img src="./assets/images/Screen Shot 2019-12-17 at 9.40.04 AM.png" alt=""> </img>

@@ -8,9 +8,9 @@ class About extends Component {
         <div class="container">
         <div class="row">
           <div class="col">
-              
+              <header>
               <h1>About Me</h1>
-            
+              </header>
               <img src="assets/images/13335806_10205963346714444_6444609360572548537_n.jpg" alt=""></img>
           </div>
           <div class="col">

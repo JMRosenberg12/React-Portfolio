@@ -5,6 +5,7 @@ import Contact from 'react';
     render() {
       return(
         <div class="container">
+          <header>Contact</header>
           <form>
                 <div class="form-group">
                     <label for="your name">Your Name</label>
