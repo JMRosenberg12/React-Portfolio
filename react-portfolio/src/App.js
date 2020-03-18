@@ -24,13 +24,13 @@ class App extends Component {
         <nav>
           <ul>
             <li>
-              <Link to="/https://github.com/JMRosenberg12">Github</Link>
+              <Link to="/">About Me</Link>
             </li>
             <li>
-              <Link to="https://www.linkedin.com/in/jacob-rosenberg-606a99161/">Linkdin</Link>
+              <Link to="/Contact">contact</Link>
             </li>
             <li>
-              <Link to="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">Resume</Link>
+              <Link to="/Portfolio">Portfolio</Link>
             </li>
           </ul>
         </nav>  
@@ -38,20 +38,15 @@ class App extends Component {
         </div>    
           </div>
         
-        <Route>
-        <Github path="https://github.com/JMRosenberg12">
-            </Github>
+        <Route path = '/About'>
+      <About />
             </Route>
           
-          <Route>
-          <Linkedin path="https://www.linkedin.com/in/jacob-rosenberg-606a99161/">
-            </Linkedin>
-            </Route>
+          <Route path = '/Contact'> <Contact/>
+        </Route>
          
-          <Route>
-          <Resume path="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf">
-            </Resume>
-            </Route>
+          <Route path = '/Portfolio'> <Portfolio/>
+          </Route>
         
    
   <Footer/>
