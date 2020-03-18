@@ -4,6 +4,7 @@ import './style.css';
 class About extends Component {
   render() {
     return(
+      <React.Fragment>
       <div>
         <div class="container">
         <div class="row">
@@ -39,9 +40,11 @@ class About extends Component {
       </div>
       </div>
   </div>
+  </React.Fragment>
       
     );
   }
+    
 }
 
 

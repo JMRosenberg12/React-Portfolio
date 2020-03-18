@@ -14,6 +14,7 @@ import {
 class App extends Component {
   render() {
     return(
+      <React.Fragment>
       <div className="App">
 	
 			<Header logo={logo} />
@@ -47,9 +48,11 @@ class App extends Component {
          
           <Route path = '/Portfolio'> <Portfolio/>
           </Route>
-        
-    ); 
-  }}
+          <Footer/>
+          </React.Fragment>
+    );
+  }
+}
   
  
     function About() {
@@ -69,11 +72,12 @@ class App extends Component {
         </li>
       </ul>
       </div>
-    
-    <Footer/>
+      
     
     );
       }
+    
+    
 
  
   
