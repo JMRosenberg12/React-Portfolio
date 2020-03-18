@@ -3,6 +3,9 @@ import logo from 'react'
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer';
+import About from './components/aboutme';
+import Contact from './components/contact';
+import Portfolio from './componentsPortfolio'
 import {
   BrowserRouter as Router,
   Route,
@@ -55,25 +58,6 @@ class App extends Component {
   }
 }
   
- 
-    function About() {
-      return <h2>About Me</h2>;
-    }
-    function Contact() {
-      return <h2>Contact</h2>
-    }
-    function Portfolio() {
-      return (
-        <div>
-          <h2>Portfolio</h2>
-          <ul>
-        <li>
-        </li>
-      </ul>
-      </div>
-      
-      )
-      }
     
 
  
