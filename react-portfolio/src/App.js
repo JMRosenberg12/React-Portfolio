@@ -25,26 +25,26 @@ class App extends Component {
         <nav>
           <ul>
             <li>
-              <Link to="/">About Me</Link>
+              <Link to="/aboutme">About Me</Link>
             </li>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/Portfolio">Portfolio</Link>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
           </ul>
         </nav> 
         
         
-        <Route path = '/index'>
+        <Route path = '/aboutme'>
       <About />
             </Route>
           
-          <Route path = '/Contact'> <Contact/>
+          <Route path = '/contact'> <Contact/>
         </Route>
          
-          <Route path = '/Portfolio'> <Portfolio/>
+          <Route path = '/portfolio'> <Portfolio/>
           </Route>
           </Router>
           <Footer/>
