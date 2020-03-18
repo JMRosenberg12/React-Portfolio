@@ -34,12 +34,10 @@ class App extends Component {
               <Link to="/Portfolio">Portfolio</Link>
             </li>
           </ul>
-        </nav>  
-        </Router>
-        </div>    
-          </div>
+        </nav> 
         
-        <Route path = '/About'>
+        
+        <Route path = '/index'>
       <About />
             </Route>
           
@@ -48,7 +46,10 @@ class App extends Component {
          
           <Route path = '/Portfolio'> <Portfolio/>
           </Route>
+          </Router>
           <Footer/>
+          </div>    
+          </div>
           </React.Fragment>
     );
   }
@@ -62,25 +63,23 @@ class App extends Component {
       return <h2>Contact</h2>
     }
     function Portfolio() {
-      let match = useRouteMatch();
       return (
         <div>
           <h2>Portfolio</h2>
           <ul>
         <li>
-          <Link to={`${match.url}/components`}>Components</Link>
         </li>
       </ul>
       </div>
       
-    
-    );
+      )
       }
-    
     
 
  
   
   export default App;
 
-    
+        
+   
+ 
