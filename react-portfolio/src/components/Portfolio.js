@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Scheduler from './images/WDScheduler.png'
 import Password from './images/PasswordGenerator.png'
-import Project1 from "./images/Project1.png"
-import Burger from "./images/Burger.png"
-import NoteTaker from "./images/NoteTaker.png"
-import Project2 from "./images/Project2.png"
+import Project1 from './images/Project1.png'
+import Burger from './images/Burger.png'
+import NoteTaker from './images/NoteTaker.png'
+import Project2 from './images/Project2.png'
 export default class Porfolio extends Component {
   render() {
    
