@@ -5,7 +5,6 @@ import Project1 from "./images/Project1.png"
 import Burger from "./images/Burger.png"
 import NoteTaker from "./images/NoteTaker.png"
 import Project2 from "./images/Project2.png"
-import './style.css'
 export default class Porfolio extends Component {
   render() {
    
