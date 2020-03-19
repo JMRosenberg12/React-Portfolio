@@ -12,7 +12,7 @@ class About extends Component {
               <header>
               <h1>About Me</h1>
               </header>
-              <img src="./assets/images/13335806_10205963346714444_6444609360572548537_n.jpg" alt=""></img>
+              <img src="./images/aboutme.jpg" alt=""></img>
           </div>
           <div class="col">
            I'm Jacob Rosenberg. I'm Jewish American and I have autism, but I tried hard to do what's right, so I can get a job! I like to do sound design and video gaming. I'm also a percussionist, bacon lover, and a waterpark enthusiast! I graduated from Full Sail after taking the degree of Recording Arts Bachelor of Science. Still looking for a job and more experiences to work on. No Excuses! 
