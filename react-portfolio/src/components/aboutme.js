@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AboutMe from "./images/aboutme.jpg"
 import './css/aboutme.css'
 
+
 class About extends Component {
   render() {
     return(
@@ -31,7 +32,7 @@ class About extends Component {
     </div>
 
     <div class="col">
-      <a class="btn btn-warning" href="Rosenberg_Jacob_Resume.pdf" role="button">My Resume</a>
+      <a class="btn btn-warning" href="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf" role="button">My Resume </a>
 
       <div class="col">
         Email: JMRosenberg@student.fullsail.edu
