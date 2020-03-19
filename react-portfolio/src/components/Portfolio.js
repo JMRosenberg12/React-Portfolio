@@ -22,29 +22,29 @@ export default class Porfolio extends Component {
         
                 </div>
                 <div className="col-sm">
-                    <img className={Password} alt="Password Generator" /> 
+                    <img src={Password} alt="Password Generator" /> 
                     <a className="btn btn-primary" href="https://jmrosenberg12.github.io/Password-Generator/" role="button">Password Generator</a>
                     <a className="btn btn-success" href="https://github.com/JMRosenberg12/Password-Generator" role="button">Github Repository to PG</a>
                 </div>
                 <div className="col-sm">
-                    <img className={Project1} alt="Project 1" />
+                    <img src={Project1} alt="Project 1" />
                     <a className="btn btn-primary" href="https://andrelbarreto.github.io/ProjectOne/index.html" role="button">Project 1</a>
                     <a className="btn btn-success" href="https://github.com/JMRosenberg12/ProjectOne" role="button">Github Repository to ProjectOne</a>
                 </div>
                 </div>
                 <div className="row">
                   <div className="col-sm">
-                    <img className={Burger} alt="Burger" />
+                    <img src={Burger} alt="Burger" />
                     <a className="btn btn-primary" href="https://polar-fortress-86358.herokuapp.com" role="button">Burger App</a>
                     <a className="btn btn-success" href="https://github.com/JMRosenberg12/burger" role="button">Github Repository to Burger App</a>
                 </div>
                 <div className="col-sm">
-                  <img className={NoteTaker} alt="Note Taker" />
+                  <img src={NoteTaker} alt="Note Taker" />
                   <a className="btn btn-primary" href="https://serene-dawn-05814.herokuapp.com/" role="button">Note Taker</a>
                   <a className="btn btn-success" href="https://github.com/JMRosenberg12/Note-Taker" role="button">Github Repoistory to Note Taker</a>
                 </div>
                 <div className="col-sm">
-                  <img className={Project2} alt="Project 2" />
+                  <img src={Project2} alt="Project 2" />
                   <a className="btn btn-primary" href="https://spiderfly.herokuapp.com" role="button">Project 2</a>
                   <a className="btn btn-success" href="https://github.com/icek567/Project-2" role="button">Github Repository to Project 2</a>
                 </div>
