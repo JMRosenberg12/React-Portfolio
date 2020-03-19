@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import WDScheduler from './images'
 export default class Porfolio extends Component {
   render() {
    
@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
               </header>
               <div className="row">
                 <div className="col-sm">
-                    <img src="./assets/images/WDScheduler.png" alt="Work Day Scheduler"> </img>
+                    <img src={WDScheduler.png} alt="Work Day Scheduler"> </img>
                     <a className="btn btn-primary" href="https://jmrosenberg12.github.io/Day-Planner/" role="button">Day Planner</a>
                     <a className="btn btn-success" href="https://github.com/JMRosenberg12/Day-Planner" role="button">Github Repository to DP</a>
         
@@ -39,7 +39,7 @@ export default class Porfolio extends Component {
                   <a className="btn btn-success" href="https://github.com/JMRosenberg12/Note-Taker" role="button">Github Repoistory to Note Taker</a>
                 </div>
                 <div className="col-sm">
-                  <img src="./assets/images/Project2.png" alt="Project 2"> </img>
+                  <img src="./assets/images/Project2.png" alt="Project 2"></img>
                   <a className="btn btn-primary" href="https://spiderfly.herokuapp.com" role="button">Project 2</a>
                   <a className="btn btn-success" href="https://github.com/icek567/Project-2" role="button">Github Repository to Project 2</a>
                 </div>
