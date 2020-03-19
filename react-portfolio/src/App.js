@@ -5,12 +5,13 @@ import Header from './components/Header'
 import Footer from './components/Footer';
 import About from './components/aboutme';
 import Contact from './components/contact';
-import Portfolio from './components/Portfolio'
+import Portfolio from './components/portfolio'
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from "react-router-dom";
+
 
 
 
