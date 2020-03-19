@@ -19,7 +19,7 @@ class App extends Component {
     return(
       <React.Fragment>
       <div className="App">
-	
+	  
 			<Header logo={logo} />
       
       <div>
