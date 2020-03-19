@@ -5,18 +5,22 @@ import Project1 from './images/Project1.png'
 import Burger from './images/Burger.png'
 import NoteTaker from './images/NoteTaker.png'
 import Project2 from './images/Project2.png'
+import HotelWallpaper from './images/hotel-wallpaper.png'
 export default class Porfolio extends Component {
   render() {
    
+  
     return (
+      
    <React.Fragment>
       <div class="container">
+     
           <header>
                   Portfolio
               </header>
               <div className="row">
                 <div className="col-sm">
-                    <img src={Scheduler} alt="Work Day Scheduler" /> 
+                    <img src={Scheduler} alt="Work Day Scheduler"/> 
                     <a className="btn btn-primary" href="https://jmrosenberg12.github.io/Day-Planner/" role="button">Day Planner</a>
                     <a className="btn btn-success" href="https://github.com/JMRosenberg12/Day-Planner" role="button">Github Repository to DP</a>
         
@@ -52,10 +56,12 @@ export default class Porfolio extends Component {
             </div>
             </React.Fragment>
           
-      
-        
+     
+         
                 
     
         );
+        
     }
+    
 }
