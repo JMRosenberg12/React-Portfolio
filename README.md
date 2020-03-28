@@ -2,6 +2,8 @@
 
 This project is the updated version of my Portfolio. This time, with React! 
 
+![Alt text](React-Portfolio.png "Screen Shot")
+
 All you have to do is...
 
 Step 1: Create a react app.
