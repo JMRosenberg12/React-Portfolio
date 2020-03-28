@@ -54,9 +54,11 @@ export default class Porfolio extends Component {
                 </div>
               </div>
               <div className="row">
+                <div className="col-sm">
                 <img src={GoogleBooksSearch} alt="GoogleBooksSearch" />
               <a className="btn btn-primary" href="https://blooming-tor-30890.herokuapp.com" role="button">Google Books Search</a>
                   <a className="btn btn-success" href="https://github.com/JMRosenberg12/Google-Books-Search" role="button">Github Repository to Google Books Search</a>
+                  </div>
               </div>
             </div>
             </React.Fragment>
