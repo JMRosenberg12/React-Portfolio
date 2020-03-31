@@ -1,6 +1,7 @@
-img {border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  right: 200px;
-  margin-right: 10px;}
+header {
+  color: #4aaaa5;
+  border-color: #cccccc;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+
+}
