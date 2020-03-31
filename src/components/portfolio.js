@@ -13,7 +13,7 @@ export default class Porfolio extends Component {
     return (
       
    <React.Fragment>
-      <div class="container">
+      <div className="container">
      
           <header>
                   Portfolio
