@@ -6,6 +6,7 @@ import Burger from './images/Burger.png'
 import NoteTaker from './images/NoteTaker.png'
 import Project2 from './images/Project2.png'
 import GoogleBooksSearch from './images/GoogleBooksSearch.png'
+import './css/portfolio.css'
 export default class Porfolio extends Component {
   render() {
    
