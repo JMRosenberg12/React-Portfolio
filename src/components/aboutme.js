@@ -32,7 +32,7 @@ class About extends Component {
     </div>
 
     <div className="col">
-      <a className="btn btn-warning" href="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf" role="button">My Resume </a>
+      <a className="btn btn-warning" href="Rosenberg_Jacob_Resume.pdf" role="button">My Resume </a>
 
       <div className="col">
         Email: JMRosenberg@student.fullsail.edu
