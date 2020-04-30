@@ -15,7 +15,6 @@ export default class Porfolio extends Component {
       
    <React.Fragment>
       <div className="container">
-     
           <header>
                   Portfolio
               </header>

@@ -3,3 +3,7 @@ a{
     display: flex;
     text-align: center;
 }
+footer{
+    background-color: blue;
+    color: white;
+}
