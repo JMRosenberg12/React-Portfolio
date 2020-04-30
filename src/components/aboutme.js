@@ -17,7 +17,7 @@ class About extends Component {
               <img src={AboutMe} alt=""></img>
           </div>
           <div className="col">
-           I'm Jacob Rosenberg. I'm Jewish American and I have autism, but I tried hard to do what's right, so I can get a job! I like to do sound design and video gaming. I'm also a percussionist, bacon lover, and a waterpark enthusiast! I graduated from Full Sail after taking the degree of Recording Arts Bachelor of Science. Still looking for a job and more experiences to work on. No Excuses! 
+          Front End Web Developer with a background in IT support and gaming audio. Looking to use technical skills and experience to create intuitive user experiences while collaborating with others to solve programming challenges. 
     </div>
     </div>
     </div> 
