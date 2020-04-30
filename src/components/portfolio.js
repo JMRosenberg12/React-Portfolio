@@ -72,7 +72,7 @@ export default class Porfolio extends Component {
                 <div>Google Books Search</div>
                 <div>This App requires to use React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches.</div>
               <a className="btn btn-primary" href="https://blooming-tor-30890.herokuapp.com" role="button">Link to Application</a>
-                  <a className="btn btn-success" href="https://github.com/JMRosenberg12/Google-Books-Search" role="button">Github Repository to Google Books Search</a>
+              <a className="btn btn-success" href="https://github.com/JMRosenberg12/Google-Books-Search" role="button">Github Repository to Google Books Search</a>
                   </div>
               </div>
             </div>
