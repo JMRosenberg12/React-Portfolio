@@ -35,7 +35,7 @@ class About extends Component {
       <a className="btn btn-warning" href="https://jmrosenberg12.github.io/Jacob-Rosenberg-s-Portfolio/Rosenberg_Jacob_Resume.pdf" role="button">My Resume </a>
 
       <div className="col">
-        Email: JMRosenberg@student.fullsail.edu
+        Email: JMRosenberg@alumni.fullsail.edu
       </div>
       <div className="col">
         Phone number: 847-917-9635
