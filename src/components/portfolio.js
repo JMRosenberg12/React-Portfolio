@@ -38,8 +38,8 @@ export default class Porfolio extends Component {
                     <img src={Project1} alt="Project 1" />
                     <div>Project 1: Your Best Day Out Event Tracker</div>
                     <div>This application will assist users with planning a day out by generating options for local events and food, as well as weather conditions by date and location.</div>
-                    <a className="btn btn-primary" href="https://andrelbarreto.github.io/ProjectOne/index.html" role="button">Link to Application</a>
-                    <a className="btn btn-success" href="https://github.com/JMRosenberg12/ProjectOne" role="button">Github Repository to ProjectOne</a>
+                    <a className="btn btn-primary" href="https://andrelbarreto.github.io/Best-Day-Out/" role="button">Link to Application</a>
+                    <a className="btn btn-success" href="https://github.com/andrelbarreto/Best-Day-Out" role="button">Github Repository to ProjectOne</a>
                 </div>
                 </div>
                 <div className="row">
