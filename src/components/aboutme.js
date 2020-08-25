@@ -17,7 +17,8 @@ class About extends Component {
               <img src={AboutMe} alt=""></img>
           </div>
           <div className="col">
-          Front End Web Developer with a background in IT support and gaming audio. Looking to use technical skills and experience to create intuitive user experiences while collaborating with others to solve programming challenges. Skills that I'm good at like HTML, Javascript, Bootstrap(CSS), React, and Heroku. 
+          Front End Web Developer with a background in IT support and gaming audio. Looking to use technical skills and experience to create intuitive user experiences while collaborating with others to solve programming challenges. 
+          Technical Skills: HTML, Javascript, Bootstrap(CSS), React, and Heroku 
     </div>
     </div>
     </div> 
