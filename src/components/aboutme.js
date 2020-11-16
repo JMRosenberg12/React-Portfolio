@@ -29,7 +29,7 @@ class About extends Component {
     </div>
 
     <div className="col">
-      <a className="btn btn-info" href="https://www.linkedin.com/in/jacob-rosenberg-606a99161/" role="button">My Linkedin</a>
+      <a className="btn btn-info" href="https://www.linkedin.com/in/jmrosenberg12/" role="button">My Linkedin</a>
     </div>
 
     <div className="col">
